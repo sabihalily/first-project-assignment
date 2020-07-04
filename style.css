@@ -22,12 +22,13 @@ p {
     padding: 1%
 }
 .half-side img {
-    width: 70%;
+    width: 100%;
 }
 section {
     height:600px;
     padding-bottom: 100px;
     padding: 2%;
+    margin: 0 auto;
 }
 .link-button {
     text-decoration: none;
@@ -37,15 +38,17 @@ section {
     color: white;
     font-weight: 600;
 }
-.top-banner {
-    background-image: url("images/header-bg.png");
-    background-repeat: no repeat;
-    background-size: 100% 100%;
+.top-banner{
+    background: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .biography-banner {
     background-image: url("images/biography-bg.png");
-    background-repeat: no repeat;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .latest-work {
     text-align: center;
@@ -99,10 +102,30 @@ footer{
     border: 5px deeppink;
     
 }
-#service-align{
-    text-align: center;
-    font-size: 50px;]
+
+.service-area{
+    clear: both;
     
+
+
+}
+.service-area img{
+    width: 100px;
+    height: 100px;
+}
+.service-area h1{
+    font-size: 40px;
+    color: #ff0090;
+    text-align: center;
+}
+.service-box{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    text-align: center;
+}
+.service-box h2{
+    color:blueviolet;
 }
 
 .first-div  {
